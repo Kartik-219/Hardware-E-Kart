@@ -1,35 +1,68 @@
-# 🛒 Hardware E-Kart  
+# 🛒 Hardware E-Kart
 
-A full-featured **E-Commerce Web Application** for hardware and tools shopping, built using **PHP, MySQL, HTML, CSS, and JavaScript**. It includes separate modules for users and administrators, secure authentication, cart management, and order tracking.  
+A full-featured **E-Commerce Web Application** for hardware and tools shopping, built using **PHP, MySQL, HTML, CSS, and JavaScript**.  
+It provides a seamless shopping experience for customers and an efficient management dashboard for administrators.  
+The system includes **secure authentication, product catalog management, cart functionality, order tracking, and an admin panel**.
 
 ---
 
-## 🚀 Features  
+## 🚀 Features
 
-### 👤 User Module  
+### 👤 User Module
 - User Registration & Login  
 - Browse products by categories  
-- Add to Cart & Wishlist  
+- Add products to **Cart** & **Wishlist**  
 - Place orders with Checkout  
-- Search & Quick view of products  
-- Manage profile & order history  
+- Product Search & Quick View  
+- Manage Profile & View Order History  
 
-### 🛠️ Admin Module  
-- Admin authentication system  
-- Dashboard with site statistics  
-- Manage Products (Add, Update, Delete)  
+### 🛠️ Admin Module
+- Admin Authentication System  
+- Dashboard with **site statistics**  
+- Manage Products (**Add, Update, Delete**)  
 - Manage Users & Admin Accounts  
-- Manage Orders & Order Status  
-- Handle Customer Messages  
+- Manage Orders & Update Order Status  
+- Handle Customer Queries / Messages  
 
 ---
 
-## 📂 Project Structure  
+## 📂 Project Structure
+Hardware-E-Kart/
+│── admin/ # Admin dashboard & management
+│── user/ # User interface & shopping features
+│── assets/ # CSS, JS, Images
+│── database/ # Database schema & configs
+│── index.php # Entry point
+│── README.md # Project Documentation
 
 
-cat > README.md << 'EOF'
-# 🛒 Hardware E-Kart  
+---
 
-A full-featured **E-Commerce Web Application** for hardware and tools shopping, built using **PHP, MySQL, HTML, CSS, and JavaScript**. It includes separate modules for users and administrators, secure authentication, cart management, and order tracking.  
+## ⚙️ Tech Stack
+- **Frontend**: HTML5, CSS3, JavaScript, Bootstrap  
+- **Backend**: PHP (Core PHP / CodeIgniter)  
+- **Database**: MySQL  
+- **Other Tools**: Font Awesome, XAMPP/WAMP  
 
-... (rest of README content I gave earlier) ...
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/Kartik-219/Hardware-E-Kart.git
+cd Hardware-E-Kart
+2️⃣ Setup Database
+
+Import database.sql into MySQL.
+
+Update database credentials in config.php (or equivalent file).
+
+3️⃣ Run Project
+
+Place the project inside htdocs/ (XAMPP) or www/ (WAMP).
+
+Start Apache & MySQL.
+
+Open in browser:
+http://localhost/Hardware-E-Kart
