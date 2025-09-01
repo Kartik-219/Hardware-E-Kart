@@ -67,8 +67,4 @@ Start Apache & MySQL.
 Open in browser:
 http://localhost/Hardware-E-Kart
 
-📸 Screenshots
-![Homepage](screenshots/homepage.png)
-![Cart](screenshots/cart.png)
-![Admin Dashboard](screenshots/admin-dashboard.png)
 
